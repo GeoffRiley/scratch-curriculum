@@ -1,11 +1,10 @@
 {
     "description": false,
-    "warning": "The Scratch curriculum is currently being updated. If you can't find a project here, it may have been moved to the 'Scratch 1' or 'Additional Scratch Projects' sections.",
     "id": "scratch_02",
     "language": "en-GB",
     "number": 2,
     "title": "Scratch 2",
-
+    "category": "cat-scratch",
     "projects": [
         {
             "number":   1,
@@ -27,13 +26,15 @@
         },
         {
             "number":   4,
-            "filename": "Felix and Herbert/Felix and Herbert.md",
-            "note":     "Felix and Herbert/Felix and Herbert - Notes.md"
+            "filename": "Catch the Dots/Catch the Dots.md",
+            "beta":     true,
+            "note":     "Catch the Dots/Catch the Dots - notes.md"
         },
         {
             "number":   5,
-            "filename": "Ghostbusters/Ghostbusters.md",
-            "note":     "Ghostbusters/Ghostbusters - Notes.md"
+            "filename": "Clone Wars/Clone Wars.md",
+            "beta":     true,
+            "note":     "Clone Wars/Clone Wars - notes.md"
         },
         {
             "number":   6,

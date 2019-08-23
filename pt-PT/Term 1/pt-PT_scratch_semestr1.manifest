@@ -1,0 +1,21 @@
+{
+    "description": false,
+    "id": "scratch_01",
+    "language": "pt-PT",
+    "number": 1,
+    "title": "Scratch 1",
+    "category": "cat-scratch",
+    "projects": [
+
+        {
+            "number":   1,
+            "filename": "ChatBot/ChatBot.md",
+            "note":     "ChatBot/ChatBot - notes.md"
+        },
+        {
+            "number":   2,
+            "filename": "Paint Box/Paint Box.md",
+            "note":     "Paint Box/Paint Box - notes.md"
+        }
+    ]
+}

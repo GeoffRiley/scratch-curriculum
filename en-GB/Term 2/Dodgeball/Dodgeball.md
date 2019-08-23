@@ -4,7 +4,7 @@ level: Scratch 2
 language: en-GB
 stylesheet: scratch
 embeds: "*.png"
-materials: ["Dodgeball.sb2","DodgeballResources.sb2","Resources/*.*"]
+materials: ["Club Leader Resources/*","Project Resources/*"]
 ...
 
 # Introduction { .intro }
@@ -12,19 +12,19 @@ materials: ["Dodgeball.sb2","DodgeballResources.sb2","Resources/*.*"]
 In this project you'll learn how to create a platform game, in which you have to dodge the moving balls and reach the end of the level.
 
 <div class="scratch-preview">
-	<iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0"></iframe>
-	<img src="dodge-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0"></iframe>
+  <img src="dodge-final.png">
 </div>
 
 # Step 1: Character movement { .activity }
 
-Let's start by creating a character, that can move left and right, as well as climb up poles.
+Let's start by creating a character that can move left and right, as well as climb up poles.
 
 ## Activity Checklist { .check }
 
-+ Start a new project, and delete the cat sprite, so that your project is empty.
++ Start a new Scratch project, and delete the cat sprite so that your project is empty. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new">jumpto.cc/scratch-new</a>.
 
-+ For this project, you should have a 'Resources' folder, containing the background image you'll need. Make sure that you can find this folder, and ask your club leader if you can't find it.
++ For this project, you should have a 'Project Resources' folder, containing the background image you'll need. Make sure that you can find this folder, and ask your club leader if you can't find it.
 
 	![screenshot](dodge-resources.png)
 
@@ -49,13 +49,25 @@ Let's start by creating a character, that can move left and right, as well as cl
 		end
 	```
 
-+ Test out your character by clicking the flag and then holding down the right arrow key. Does your player move to the right? Does you character look like they are walking?
++ Test out your character by clicking the flag and then holding down the right arrow key. Does your player move to the right? Does your character look like they are walking?
 
 	![screenshot](dodge-walking.png)
 
-+ To move your character to the left, you'll need to add another `if` {.blockcontrol} block inside your `forever` {.blockcontrol} loop, which moves your character to the left. Remember to test your new code, to make sure that it works!
++ To move your character to the left, you'll need to add another `if` {.blockcontrol} block inside your `forever` {.blockcontrol} loop, which moves your character to the left. Remember to test your new code, to make sure that it works! If your player turns upside down when moving left, add a `set rotation style` {.blockcontrol} block above the `forever` {.blockcontrol} loop:
 
-+ To climb a pole, your character should move up slighly whenever the up arrow is pressed and they're touching the correct colour. Add this code inside your character's `forever` {.blockcontrol} loop:
+	```blocks
+		when flag clicked
+		set rotation style [left-right v]
+		forever
+			if <key [right arrow v] pressed? > then
+				point in direction (90 v)
+				move (3) steps
+				next costume
+			end
+		end
+	```
+
++ To climb a pole, your character should move up slightly whenever the up arrow is pressed and they're touching the correct colour. Add this code inside your character's `forever` {.blockcontrol} loop:
 
 	```blocks
 		if < <key [up arrow v] pressed?> and <touching color [#FFFF00]?> > then
@@ -129,7 +141,7 @@ Let's make your character move more realistically, by adding gravity and allowin
 		end
 	```
 
-	As gravity is constantly pushing your character down by 4 pixels, you need to choose a number greated than 4 in your `change y by (4)` {.blockmotion} block. Change this number until you're happy with the height your character jumps.
+	As gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than 4 in your `change y by (4)` {.blockmotion} block. Change this number until you're happy with the height your character jumps.
 
 + If you test out this code, you'll notice that it works, but the movement isn't very smooth. To make jumping look smoother, you'll need to move your character by smaller and smaller amounts, until they're not jumping anymore.
 
@@ -157,7 +169,7 @@ Your character is able to jump whenever the spacebar is pressed, even if they're
 
 ## Save your project { .save }
 
-# Step 3: Dodging balls { .activity }
+# Step 3: Dodging balls { .activity .new-page}
 
 Now that you've got your character moving around, let's add some balls for your character to avoid.
 
@@ -181,7 +193,7 @@ Now that you've got your character moving around, let's add some balls for your 
 
 	![screenshot](dodge-ball-test.png)
 
-+ Add more code to your ball sprite, so that they moves across all 3 platforms.
++ Add more code to your ball sprite, so that they move across all 3 platforms.
 
 	![screenshot](dodge-ball-more-motion.png)
 
@@ -219,9 +231,9 @@ The balls your character has to dodge all look the same, and always appear every
 
 ## Save your project { .save }
 
-# Step 4: Lasers! { .activity }
+# Step 4: Lasers! { .activity .new-page}
 
-Let's make your game a little harder to compelte, by adding lasers!
+Let's make your game a little harder to complete, by adding lasers!
 
 ## Activity Checklist { .check }
 
@@ -275,7 +287,7 @@ You could even create more than one backdrop, and move to the next level when yo
 ## Save your project { .save }
 
 ## Challenge: Improved gravity {.challenge}
-There's one other small bug in your game: gravity doesn't pull your character downwards if _any_ part of it is touching a blue platform - even it's head! You can test this out by climbing most of the way up a pole and then moving to the left.
+There's one other small bug in your game: gravity doesn't pull your character downwards if _any_ part of it is touching a blue platform - even its head! You can test this out by climbing most of the way up a pole and then moving to the left.
 
 ![screenshot](dodge-gravity-bug.png)
 

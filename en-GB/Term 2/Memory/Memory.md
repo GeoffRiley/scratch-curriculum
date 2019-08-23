@@ -4,7 +4,7 @@ level: Scratch 2
 language: en-GB
 stylesheet: scratch
 embeds: "*.png"
-materials: ["Memory.sb2","Club Leader Resources/*.*"]
+materials: ["Club Leader Resources/*"]
 ...
 
 ## Community Contributed Project { .challenge .pdf-hidden }
@@ -15,8 +15,8 @@ This project was created with Erik and his daughter Ruth. If you'd like to contr
 In this project, you will create a memory game where you have to memorise and repeat a sequence of random colours!
 
 <div class="scratch-preview">
-	<iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/34874510/?autostart=false" frameborder="0"></iframe>
-	<img src="colour-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/34874510/?autostart=false" frameborder="0"></iframe>
+  <img src="colour-final.png">
 </div>
 
 # Step 1: Random colours { .activity }
@@ -25,7 +25,7 @@ First, let's create a character that can change to a random sequence of colours 
 
 ## Activity Checklist { .check }
 
-+ Start a new project, and delete the cat sprite, so that your project is empty.
++ Start a new Scratch project, and delete the cat sprite so that your project is empty. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new">jumpto.cc/scratch-new</a>.
 
 + Choose a character and a backdrop. Your character doesn't have to be a person, but it needs to be able to show different colours.
 
@@ -42,7 +42,7 @@ First, let's create a character that can change to a random sequence of colours 
 
 	![screenshot](colour-costume.png)
 
-+ To create a random sequence, you need to create a _list_. A list is just a variable that stores lots of data _in order_. Create a new list called `sequence` {.blockdata}. As only your character needs to see the list, we can also click 'For this sprite only'.
++ To create a random sequence, you need to create a __list__. A list is just a variable that stores lots of data __in order__. Create a new list called `sequence` {.blockdata}. As only your character needs to see the list, we can also click 'For this sprite only'.
 
 	![screenshot](colour-list.png)
 
@@ -81,7 +81,7 @@ Let's add 4 buttons, for the player to repeat the sequence they've remembered.
 
 	![screenshot](colour-drums.png)
 
-+ When the red drum is clicked, you'll need to broadcast a message to your character, letting them know that the red button has been clicked:
++ When the red drum is clicked, you'll need to broadcast a message to your character, letting them know that the red button has been clicked. Add this code to your red drum:
 
 	```blocks
 		when this sprite clicked
@@ -196,7 +196,7 @@ Let's save the high score, so that you can play against your friends.
 		else
 			say [Game over!] for (1) secs
 			if < (score) > (high score) > then
-				set [high score v] to [score v]
+				set [high score v] to (score)
 				ask [High score! What is your name?] and wait
 				set [name v] to (answer)
 			end

@@ -2,20 +2,19 @@
 title: Boat Race — Notes for Club Leaders
 language: en-GB
 embeds: "*.png"
-materials: ["Club Leader Resources/*.*"]
 ...
 
 #Introduction:
 In this project, children will learn how sprites can sense their environment.
 
 #Resources
-For this project, Scratch 2 should be used. Scratch 2 can either be used <a href="http://scratch.mit.edu/projects/editor/">online</a> or <a href="http://scratch.mit.edu/scratch2download/">offline</a>.
+For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
 
-You can find a completed version of this project <a href="http://scratch.mit.edu/projects/29125780/#editor">online</a>, or it can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
+You can find a completed version of this project <a href="http://scratch.mit.edu/projects/63957956/#editor">online</a>, or it can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
 
 + BoatRace.sb2
 
-There is also a version of this project with the <a href="http://scratch.mit.edu/projects/37837664/#editor">external resources pre-loaded</a>:
+There is also a version of this project with the external resources pre-loaded. This is available online at [jumpto.cc/boatrace-resources](http://jumpto.cc/boatrace-resources), or in the downloadable project materials, which contains:
 
 + BoatRaceResources.sb2 
 
@@ -43,6 +42,8 @@ Project resources:
 
 	For example, if children need help adding sound effects and music to their game, remind them of the work they did in the 'Rock Band' project. Encourage children to go back and look at the previous project notes for guidance.
 
-	The same is also true for movement of sprites. For example, a 'log' obstacle would move around the stage in a very similar way to the balloons in the 'Balloons' project!
++ There is currently a bug in Scratch which causes the boat to travel in a straight line, rather than towards the mouse pointer.
 
-+ Although background and boat images have been provided to save time, children can make these themselves quite easily using the Scratch costume editor.
+	This can be fixed by re-selecting the 'mouse-pointer' option in the `point towards` {.blockmotion} block.
+
+	![screenshot](images/boat-bug.png) 

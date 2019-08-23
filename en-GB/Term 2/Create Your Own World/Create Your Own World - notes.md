@@ -2,20 +2,19 @@
 title: Create Your Own World — Notes for Club Leaders
 language: en-GB
 embeds: "*.png"
-materials: [""]
 ...
 
 #Introduction:
 In this project, children will learn how to make their own open-world game, making use of all Scratch concepts and skills that have been learnt in previous projects.
 
 #Resources
-For this project, Scratch 2 should be used. Scratch 2 can either be used <a href="http://scratch.mit.edu/projects/editor/">online</a> or <a href="http://scratch.mit.edu/scratch2download/">offline</a>.
+For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
 
 You can find a completed version of this project <a href="http://scratch.mit.edu/projects/34248822/#editor">online</a>, or it can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
 
 + CreateYourOwnWorld.sb2
 
-There is also a version of this project with the <a href="http://scratch.mit.edu/projects/37836116/#editor">external resources pre-loaded</a>:
+There is also a version of this project with the external resources pre-loaded. This is available online at [jumpto.cc/world-resources](http://jumpto.cc/world-resources), or in the downloadable project materials, which contains:
 
 + CreateYourOwnWorldResources.sb2 
 
@@ -24,12 +23,13 @@ This link also includes a 'Project Resources' folder, which contains images that
 Project resources:
 + player.png;
 + room1/2/3.png;
-+ sign.png;
-+ chest.png;
++ sign.svg;
++ chest.svg;
 + person.png;
 + enemy.png;
-+ coins.png;
-+ door-blue/key-blue.png.
++ coin.svg;
++ door-blue.png;
++ key-blue.png.
 
 
 #Learning Objectives

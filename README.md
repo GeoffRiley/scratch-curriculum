@@ -1,25 +1,24 @@
+[![Stories in Ready](https://badge.waffle.io/codeclub/scratch-curriculum.png?label=ready&title=Ready)](https://waffle.io/codeclub/scratch-curriculum)
 # Code Club Scratch Curriculum
 
 This repository contains all the material for Term 1 and 2 of [Code Club][codeclub].
-It consists of lesson notes and plans in [Markdown][markdown] format,
-[Scratch][scratch] project files, and a few PDFs.
+It consists of lesson notes and plans in [Markdown][markdown] format along with
+[Scratch][scratch] project files.
 
-This material is openly available for everyone to use and contribute to.
-Right now, we’re receiving translations from all over the world.
-See 'contributing' below to find out how you can take part.
+__More information on our curriculum can be found [here](https://github.com/CodeClub/curriculum_documentation/blob/master/README.md).__
+
+# New Projects
+
+If you are a club leader trying out new projects, please complete <a href="https://docs.google.com/forms/d/1eMCfpYe3v7eYu5M8rSqLKlmq7cczLCLHx66csgyUyVU/viewform?usp=send_form" target="_blank">this short questionnaire</a> (or email projects@codeclub.org.uk) to let us know how it went!
 
 ## Contributing
 
-To contribute:
+This material is openly available for everyone to use and contribute to. Right now, we’re receiving translations from all over the world.
 
-1. Fork the repo
-2. Add your new translation in its own folder *or*
-   Add to one of the existing translations
-3. Send us a pull request
-4. Ask another native speaker to read through and comment with :+1:
-   if they like your work
+Instructions on how to contribute to our curriculum can be found [here](https://github.com/CodeClub/curriculum_documentation/blob/master/contributing.md).
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+**You should switch to the correct branch to contribute. The content for the [projects.codeclubworld.org](http://projects.codeclubworld.org/) can be found in the `master` branch and the content for the [codeclubprojects.org](https://codeclubprojects.org/) site can be found in the `new-layout` branch.**
+
 ## Discuss
 Ask questions and share your experiences with other Code Clube World local teams in our community:
 https://plus.google.com/communities/107429287353708601653
