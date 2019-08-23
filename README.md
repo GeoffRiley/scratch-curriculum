@@ -1,7 +1,7 @@
 [![Stories in Ready](https://badge.waffle.io/codeclub/scratch-curriculum.png?label=ready&title=Ready)](https://waffle.io/codeclub/scratch-curriculum)
 # Code Club Scratch Curriculum
 
-This repository contains all the material for Term 1 and 2 of [Code Club][codeclub].
+This repository contains all the material for the [Code Club Scratch projects](https://codeclubprojects.org/en-GB/scratch/).
 It consists of lesson notes and plans in [Markdown][markdown] format along with
 [Scratch][scratch] project files.
 
@@ -16,10 +16,6 @@ If you're a club leader trying out new projects, please complete <a href="https:
 This material is openly available for everyone to use and contribute to. Right now, we’re receiving translations from all over the world.
 
 Instructions on how to contribute to our curriculum can be found [here](https://github.com/CodeClub/curriculum_documentation/blob/master/contributing.md).
-
-## Discuss
-Ask questions and share your experiences with other Code Clube World local teams in our community:
-https://plus.google.com/communities/107429287353708601653
 
 ## Generating the language packs
 
@@ -50,7 +46,6 @@ See [LICENSE.md](LICENSE.md)
 
 This repository uses Unicode filenames, which can break under OSX. You will need a version of Git above 1.8.2 and run `git config --global core.precomposeunicode true` before checking out the repository.
 
-[codeclub]: http://codeclubworld.org/
 [markdown]: http://daringfireball.net/projects/markdown/
 [scratch]: http://scratch.mit.edu/
 
